@@ -17,8 +17,6 @@ class HapyPath extends Specification {
         Properties prop = getProp();
 
         URL url = new URL(prop.getProperty("prop.server.host") + prop.getProperty("prop.server.path.openid-connect"));
-        String user = prop.getProperty("prop.server.user");
-        String password = prop.getProperty("prop.server.password");
 
         def body = given()
                 .header("Content-Type", "application/x-www-form-urlencoded")
