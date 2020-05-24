@@ -1,0 +1,33 @@
+.DS_Store
+.gradle
+target
+build
+out
+logs
+lib*
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+
+### IntelliJ IDEA ###
+.idea
+.shelf
+*.iws
+*.iml
+*.ipr
+.editorconfig
+*.log
+
+### NetBeans ###
+nbproject/private/
+nbbuild
+dist
+nbdist
+.nb-gradle
+!gradle/wrapper/gradle-wrapper.jar

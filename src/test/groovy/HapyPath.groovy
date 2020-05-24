@@ -6,6 +6,7 @@ import java.nio.file.Paths
 import static io.restassured.RestAssured.given
 
 class HapyPath extends Specification {
+
     static Properties getProp() throws IOException {
         Properties props = new Properties()
         FileInputStream file = new FileInputStream(Paths.get("src/test/resources/test.properties").toString())
