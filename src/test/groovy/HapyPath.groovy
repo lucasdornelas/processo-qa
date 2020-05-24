@@ -22,8 +22,8 @@ class HapyPath extends Specification {
 
         def body = given()
                 .header("Content-Type", "application/x-www-form-urlencoded")
-                .formParam("username", user)
-                .formParam("password", password)
+                .formParam("username", System.getenv("USER"))
+                .formParam("password", System.getenv("PASSWORD"))
                 .formParam("grant_type", "password")
                 .formParam("client_id", "darwin-client")
                 .post(url).andReturn().jsonPath()
