@@ -1,4 +1,4 @@
-package response
+package response.token
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

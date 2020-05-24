@@ -1,4 +1,4 @@
-import response.Token
+import response.token.Token
 import spock.lang.Specification
 
 import java.nio.file.Paths
