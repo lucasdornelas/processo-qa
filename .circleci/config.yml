@@ -22,7 +22,7 @@ jobs:
       TERM: dumb
 
     steps:
-      - integration-test
+      - integrationTest
 
       # Download and cache dependencies
       - restore_cache:
