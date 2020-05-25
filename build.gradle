@@ -14,7 +14,9 @@ dependencies {
     testCompile(
             "junit:junit:${junitVersion}",
             "org.spockframework:spock-core:${spockFrameworkVersion}",
-            "io.rest-assured:rest-assured:${restAssuredVersion}"
+            "io.rest-assured:rest-assured:${restAssuredVersion}",
+            "org.assertj:assertj-core:${assertjVersion}"
+
     )
     compile 'com.fasterxml.jackson.core:jackson-databind:2.9.4'
 }

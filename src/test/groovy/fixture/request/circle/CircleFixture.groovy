@@ -1,4 +1,4 @@
-package fixture.circle
+package fixture.request.circle
 
 import request.circle.Circle
 import request.circle.Rules

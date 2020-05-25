@@ -1,0 +1,4419 @@
+{
+  "content": [
+    {
+      "id": "3a814c02-4497-4e5d-a495-0ddc9e1ab518",
+      "author": {
+        "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+        "name": "Schumaiquer Souto",
+        "email": "schumaiquer.parreira@zup.com.br",
+        "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-04-03 18:33:11",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+      "author": {
+        "id": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+        "name": "Leandro Latini",
+        "email": "leandro.batista@zup.com.br",
+        "photoUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQHXQza3Ff4kmA/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=ChfLSjH8pnkL-9Teft5MKGeW0XTcEnoOjsnX3455dZ8",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-04-23 20:29:27",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin-save-git-configurations-rc-4",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "9f4e8371-75c7-4f90-9bb7-2993d587128b",
+      "author": {
+        "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+        "name": "Schumaiquer Souto",
+        "email": "schumaiquer.parreira@zup.com.br",
+        "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-03-20 17:19:01",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin-comparison-circles-rc-3",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+      "author": {
+        "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+        "name": "Schumaiquer Souto",
+        "email": "schumaiquer.parreira@zup.com.br",
+        "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-05-04 17:16:20",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin-notification-and-villagert-v-1",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "8f689068-e539-4f3f-9490-88a71345e7f5",
+      "author": {
+        "id": "78d0c6b5-d7de-4380-bd8e-971f2fe9baf8",
+        "name": "Maycon Pacheco",
+        "email": "maycon.pacheco@zup.com.br",
+        "photoUrl": "",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-03-03 17:23:17",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin-v-1-to-v-2-02",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "4495fec7-29f8-4d04-a673-fae2f620e4e8",
+      "author": {
+        "id": "ad3430af-f60e-4574-afa9-2cead12f695b",
+        "name": "Jeias Soares",
+        "email": "jeias.soares@zup.com.br",
+        "photoUrl": "https://avatars1.githubusercontent.com/u/46794198?s=460&v=4",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-03-27 20:29:49",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin-one-dep-15",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "afb86b3a-dcd3-4fb0-bf7f-ff1f124c59ad",
+      "author": {
+        "id": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+        "name": "Leandro Latini",
+        "email": "leandro.batista@zup.com.br",
+        "photoUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQHXQza3Ff4kmA/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=ChfLSjH8pnkL-9Teft5MKGeW0XTcEnoOjsnX3455dZ8",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-05-05 14:19:48",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin-workspace-rc-35",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "d875be63-4b7f-4541-8d22-7b731635ea78",
+      "author": {
+        "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+        "name": "Schumaiquer Souto",
+        "email": "schumaiquer.parreira@zup.com.br",
+        "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-03-18 17:15:20",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin-sprint-6-remove-dependencies-v-1",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+      "author": {
+        "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+        "name": "Schumaiquer Souto",
+        "email": "schumaiquer.parreira@zup.com.br",
+        "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-04-09 22:59:50",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin-v-0-1-0",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "aad135ad-3a79-4f9d-8887-d29b4c0d3b3c",
+      "author": {
+        "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+        "name": "Schumaiquer Souto",
+        "email": "schumaiquer.parreira@zup.com.br",
+        "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-03-23 17:46:00",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin-teste-numero-maximo-de-caracteres-aaaaaaaaaa-v-2",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "553ce2b2-2d05-461f-86f3-ac49340b861a",
+      "author": {
+        "id": "39e921ec-a15e-4d0b-be46-7e23415d40e2",
+        "name": "Adauto de Paula",
+        "email": "adauto.paula@zup.com.br",
+        "photoUrl": "https://media.licdn.com/dms/image/C5103AQFT83e1Q0CoDQ/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=0jvcSSQMZ1yML-Z2qpU-A-bAXCWZbpSPayeQcp8iL24",
+        "createdAt": "2020-01-16 21:12:20"
+      },
+      "createdAt": "2020-02-21 18:33:32",
+      "features": [
+        {
+          "id": "bd620247-7e85-40a7-ba2d-d725c9a9948c",
+          "name": "workspace",
+          "branchName": "workspace",
+          "authorId": "3e86e26e-fcf3-4d15-a49b-5deb3fa1fd64",
+          "authorName": "Leandro Latini",
+          "modules": [
+            {
+              "id": "f80ec2c6-e730-4fcd-a94a-b71a703dbb07",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "e0a774b2-5b19-4730-bc18-e0f927ae58d4",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "4c5fdf6c-82b0-4a87-9946-c66ad3fd7d08",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                },
+                {
+                  "id": "91e0b34c-ef39-4847-acbf-8c020377f062",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "19d17490-3560-4b60-88f4-65dd0fd2c46e",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "19accbbf-2887-44ca-aaa8-8b26b68ce0e4",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "02485ca9-735a-4598-a436-825341d0756c",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "967d0706-fe27-4256-9d22-a85c0f219561",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "653d9b0d-9aac-4f95-9bf7-ef8eac5f3b0d",
+              "name": "ZupIT/darwin-circle-matcher",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-circle-matcher",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-11-12 17:24:32",
+              "components": [
+                {
+                  "id": "0811e87a-8c6d-4c5c-8c89-709e0d67577c",
+                  "name": "darwin-circle-matcher",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-11-12 17:24:32",
+                  "artifact": {
+                    "id": "03b4f19d-f520-4905-8d39-f23eb2f45ff6",
+                    "artifact": "realwavelab.azurecr.io/darwin-circle-matcher:darwin-workspace-rc-35",
+                    "version": "darwin-workspace-rc-35",
+                    "createdAt": "2020-05-05 14:29:19"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-03 02:24:09",
+          "branches": [
+            "https://github.com/ZupIT/darwin-ui/tree/workspace",
+            "https://github.com/ZupIT/darwin-application/tree/workspace",
+            "https://github.com/ZupIT/darwin-circle-matcher/tree/workspace"
+          ]
+        },
+        {
+          "id": "ee578c4c-1bf4-478d-a7f9-4efb67ac7908",
+          "name": "notification and villagert\n",
+          "branchName": "notification-and-villagert",
+          "authorId": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+          "authorName": "Schumaiquer Souto",
+          "modules": [
+            {
+              "id": "87b6d016-641a-4b22-8a16-11a422e19b6f",
+              "name": "ZupIT/darwin-notifications",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-notifications",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-10-24 17:34:14",
+              "components": [
+                {
+                  "id": "a9ff0fb1-6e41-4036-9367-31dc8c2af57b",
+                  "name": "darwin-notifications",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-10-24 17:34:14",
+                  "artifact": {
+                    "id": "e6143a2a-566b-47ec-8de1-0de2b922cc5d",
+                    "artifact": "realwavelab.azurecr.io/darwin-notifications:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "91b9d962-d098-4a3c-9889-ead1936fb842",
+              "name": "ZupIT/darwin-villager",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-villager",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:38:38",
+              "components": [
+                {
+                  "id": "382c3ddb-4869-4925-b0e0-7814f12e9b24",
+                  "name": "darwin-villager",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/health",
+                  "createdAt": "2019-09-30 21:38:38",
+                  "artifact": {
+                    "id": "2000c8f3-f979-4787-af5f-66f134ba8584",
+                    "artifact": "realwavelab.azurecr.io/darwin-villager:darwin-notification-and-villagert-v-1",
+                    "version": "darwin-notification-and-villagert-v-1",
+                    "createdAt": "2020-05-04 17:29:17"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-05-04 17:10:07",
+          "branches": [
+            "https://github.com/ZupIT/darwin-notifications/tree/notification-and-villagert",
+            "https://github.com/ZupIT/darwin-villager/tree/notification-and-villagert"
+          ]
+        },
+        {
+          "id": "d895f00d-8e71-4944-971a-ba42b6c654eb",
+          "name": "save git configurations",
+          "branchName": "save-git-configurations",
+          "authorId": "07806d75-3ec1-4bf1-a734-28cc3f6359aa",
+          "authorName": "Mônica Ribeiro",
+          "modules": [
+            {
+              "id": "3b947e33-188d-416f-8a49-e0b04799b298",
+              "name": "ZupIT/darwin-application",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-application",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2019-09-30 21:36:56",
+              "components": [
+                {
+                  "id": "984d650c-f93d-44b9-8582-ead927d7ef2a",
+                  "name": "darwin-application",
+                  "contextPath": "/",
+                  "port": 8080,
+                  "healthCheck": "/actuator/health",
+                  "createdAt": "2019-09-30 21:36:56",
+                  "artifact": {
+                    "id": "46934670-626f-4f16-876e-ea6260167dd1",
+                    "artifact": "realwavelab.azurecr.io/darwin-application:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3d861412-0f80-42ec-afd0-4a76c22f800d",
+              "name": "ZupIT/darwin-ui",
+              "gitRepositoryAddress": "https://github.com/ZupIT/darwin-ui",
+              "helmRepository": "https://api.github.com/repos/zupit/darwin-k8s-chart-values/contents/",
+              "createdAt": "2020-02-19 19:31:31",
+              "components": [
+                {
+                  "id": "bc54bdea-d6dd-4e19-9d08-2e25f1a86f9d",
+                  "name": "darwin-ui-legacy",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "b332abff-15d8-436d-bf24-cac5b198da2f",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-legacy:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                },
+                {
+                  "id": "52672c40-5349-45fc-8d30-7d2c96c99bac",
+                  "name": "darwin-ui-new",
+                  "contextPath": null,
+                  "port": 0,
+                  "healthCheck": null,
+                  "createdAt": "2020-02-19 19:31:31",
+                  "artifact": {
+                    "id": "521d9539-e063-46d6-801f-46a5646bad60",
+                    "artifact": "realwavelab.azurecr.io/darwin-ui-new:darwin-save-git-configurations-rc-4",
+                    "version": "darwin-save-git-configurations-rc-4",
+                    "createdAt": "2020-04-23 20:37:57"
+                  }
+                }
+              ]
+            }
+          ],
+          "createdAt": "2020-04-03 14:06:18",
+          "branches": [
+            "https://github.com/ZupIT/darwin-application/tree/save-git-configurations",
+            "https://github.com/ZupIT/darwin-ui/tree/save-git-configurations"
+          ]
+        }
+      ],
+      "tag": "release-darwin-redis-aws-cluster",
+      "status": "BUILT",
+      "deployments": [
+        {
+          "id": "63595a6f-4006-4c2d-99d9-dac04d7ad128",
+          "createdAt": "2020-04-23 20:50:16",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "4b799631-6f39-4c59-ada4-0cfd8fa27d07",
+          "createdAt": "2020-04-23 20:38:55",
+          "deployedAt": null,
+          "buildId": "f55e00e7-0da3-42b7-8686-7ebbef6b2b3d",
+          "status": "DEPLOY_FAILED",
+          "circle": {
+            "id": "53a53cd6-5f0a-483b-98fb-2f38a6af7403",
+            "name": "Workspace - Testing",
+            "author": {
+              "id": "6d44de66-f703-482e-95fa-a0b9eee81dc5",
+              "name": "Leandro Queiroz",
+              "email": "leandro.queiroz@zup.com.br",
+              "photoUrl": "https://scontent.fudi1-1.fna.fbcdn.net/v/t1.0-9/95403362_3025940237470059_8672953067131371520_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFThldkDzlO2wo2a8reCmIcQF5xaPbU0ohAXnFo9tTSiHWEvM-uSoMfz6qLnA9BIwzsDKnT_CfYApRxKw9c45S0&_nc_ohc=ZG3Sk2BJt-8AX-od4J7&_nc_ht=scontent.fudi1-1.fna&oh=387831a6f634258acdd09cc72fad3bd3&oe=5ED6D1EA",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-04-13 18:12:30",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "leandro2321312@zup.com.br"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "c2f9de3a-d727-4f1a-92f5-6b1e8463e5ed",
+          "createdAt": "2020-05-04 17:31:11",
+          "deployedAt": "2020-05-04 17:31:12",
+          "buildId": "e1447fc2-04ff-4712-ab61-04923656e3a9",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "161ee836-0f2f-4fff-a34c-5bcd07d1bde0",
+            "name": "QA - 2",
+            "author": {
+              "id": "697c7a9f-c7a8-4896-aa51-19e4004fd1f3",
+              "name": "Schumaiquer Souto",
+              "email": "schumaiquer.parreira@zup.com.br",
+              "photoUrl": "https://avatars3.githubusercontent.com/u/19995984?s=460&u=bf2a391b18008f0e96932ae34cbc449c59861406&v=4",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2020-05-04 17:31:03",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "EE",
+                    "value": [
+                      "EE"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        },
+        {
+          "id": "114e5135-f040-43a0-bc37-cbcde7214b89",
+          "createdAt": "2020-04-09 23:06:10",
+          "deployedAt": "2020-04-09 23:59:11",
+          "buildId": "bad72d77-44e4-4ec0-8fe3-0c135ef385b2",
+          "status": "NOT_DEPLOYED",
+          "circle": {
+            "id": "f5d23a57-5607-4306-9993-477e1598cc2a",
+            "name": "Default",
+            "author": {
+              "id": "42b79455-47b0-4012-8248-bb8e351c2293",
+              "name": "Fernando Nery",
+              "email": "fernando.nery@zup.com.br",
+              "photoUrl": "https://media.licdn.com/dms/image/C4D03AQESZ8PD4RWQNA/profile-displayphoto-shrink_100_100/0?e=1582761600&v=beta&t=4zqYDYxvg6pkNkt3bkjLJQJHpN-XQJAtk5tH_WL2qkM",
+              "createdAt": "2020-01-16 21:12:20"
+            },
+            "createdAt": "2019-09-17 17:56:11",
+            "matcherType": "REGULAR",
+            "rules": {
+              "type": "CLAUSE",
+              "clauses": [
+                {
+                  "type": "RULE",
+                  "content": {
+                    "key": "username",
+                    "value": [
+                      "vazio"
+                    ],
+                    "condition": "EQUAL"
+                  }
+                }
+              ],
+              "logicalOperator": "OR"
+            },
+            "importedAt": null,
+            "importedKvRecords": 0
+          }
+        }
+      ]
+    }
+  ],
+  "page": 0,
+  "size": 11,
+  "totalPages": 24,
+  "last": false
+}

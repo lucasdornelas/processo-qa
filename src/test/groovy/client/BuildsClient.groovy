@@ -2,7 +2,6 @@ package client
 
 
 import io.restassured.response.Response
-import request.circle.Circle
 
 import static io.restassured.RestAssured.given
 
@@ -30,7 +29,7 @@ class BuildsClient extends Client {
         url = getUrl(BASE_URL_CIRCLE_PATH, URL_BUILDS_PATH)
     }
 
-    Response fetchBuilds(String accessToken) {
+    Response fetchBuilds(String accessToken,String tagName, String status, String page) {
         return given()
                 .header("Connection", HEADER_CONNECTION)
                 .header("x-application-id", HEADER_APPLICATION_ID)
@@ -43,6 +42,9 @@ class BuildsClient extends Client {
                 .header("Referer", HEADER_REFERER)
                 .header("Accept-Encoding", HEADER_ACCEPT_ENCODING)
                 .header("Accept-Language", HEADER_ACCEPT_LANGUAGE)
+                .queryParam("tagName", tagName)
+                .queryParam("page", page)
+                .queryParam("status", status)
                 .get(url).andReturn()
     }
 }

@@ -2,7 +2,7 @@ package specs
 
 import client.AuthClient
 import client.CirclesClient
-import fixture.circle.CircleFixture
+import fixture.request.circle.CircleFixture
 import io.restassured.response.Response
 import response.circle.Circle
 import response.token.Token
