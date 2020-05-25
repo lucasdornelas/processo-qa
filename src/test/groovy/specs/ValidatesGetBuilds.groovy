@@ -2,9 +2,9 @@ package specs
 
 import client.AuthClient
 import client.BuildsClient
-import fixture.response.build.BuildsFixture
+import fixture.response.builds.BuildsFixture
 import io.restassured.response.Response
-import response.build.Builds
+import response.builds.Builds
 import response.token.Token
 import spock.lang.Shared
 import spock.lang.Specification
