@@ -8,7 +8,7 @@ class AuthClient extends Client {
 
     public static final String HEADER_CONTENT_TYPE_VALUE = "application/x-www-form-urlencoded"
     private final String BASE_URL_PATH = "prop.server.keycloak.host"
-    private final String URL_AUTH_PATH = "prop.server.path.auth"
+    private final String URL_AUTH_PATH = "prop.server.path.auth.token"
 
     private URL url
 
@@ -22,9 +22,8 @@ class AuthClient extends Client {
         url = getUrl(BASE_URL_PATH, URL_AUTH_PATH)
         parameterUser = System.getenv("USER")
         parameterPassword = System.getenv("PASSWORD")
-
-        parameterUser = "processoqa@zup.com.br"
-        parameterPassword = "123mudar"
+        parameterGrantType = "password"
+        parameterClientId = "darwin-client"
     }
 
     Response fetchAuth() {

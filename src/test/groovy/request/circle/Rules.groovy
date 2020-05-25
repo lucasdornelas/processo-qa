@@ -1,5 +1,8 @@
 package request.circle
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
+
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 class Rules {
 
     private String type
