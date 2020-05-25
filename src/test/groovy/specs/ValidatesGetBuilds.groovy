@@ -40,7 +40,7 @@ class ValidatesGetBuilds extends Specification {
 
         then: "Vejo que o Status Code do response e 200"
 
-        buildsResponse.getStatusCode() == 200
+        assertThat(buildsResponse.getStatusCode()).isEqualTo(200)
 
         and: ('E valido o body do response do endpopint builds')
 
