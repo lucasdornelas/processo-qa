@@ -8,7 +8,8 @@ import response.builds.Builds
 import response.token.Token
 import spock.lang.Shared
 import spock.lang.Specification
-import static org.assertj.core.api.Assertions.assertThat;
+
+import static org.assertj.core.api.Assertions.assertThat
 
 class ValidatesGetBuilds extends Specification {
 
@@ -26,23 +27,23 @@ class ValidatesGetBuilds extends Specification {
         buildsClient = new BuildsClient()
     }
 
-    def "Retorna um objeto contendo as informacoes dos um Builds Criados"() {
+    def "Returns an object containing information about Builds Circle"() {
 
-        given: "Dado que eu tenho um Token valido para efetuar um request e os filtros o status BUILT e page 0"
+        given: "I have a valid Token to make a request with the filters status = BUILT and page = 0"
 
         String status = "BUILT"
         String page = "0"
         String tagName = ""
 
-        when: "Chamo o endpoint GET para obter os builds que foram criados"
+        when: "I call the GET endpoint to obtain information from the builds"
 
         Response buildsResponse = buildsClient.fetchBuilds(token.accessToken, tagName, status, page)
 
-        then: "Vejo que o Status Code do response e 200"
+        then: "Show Status Code 200 OK"
 
         assertThat(buildsResponse.getStatusCode()).isEqualTo(200)
 
-        and: ('E valido o body do response do endpopint builds')
+        and: "validate all the body responds"
 
         Builds buildsResponseBody = buildsResponse.jsonPath().getObject('', Builds)
 
@@ -50,5 +51,30 @@ class ValidatesGetBuilds extends Specification {
         Builds expectedBuildResponse = new BuildsFixture().build(pathJsonExpectedResponse)
 
         assertThat(expectedBuildResponse).isEqualToComparingFieldByFieldRecursively(buildsResponseBody)
+    }
+
+    def "Returns an error when an invalid token is used"() {
+
+        given: "I have a valid token and a valid body"
+
+        String status = "BUILT"
+        String page = "0"
+        String tagName = ""
+
+        when: "I make a request for GET endpoint return builds information"
+
+        String invalidToken = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiA"
+        Response buildsResponse = buildsClient.fetchBuilds(invalidToken, tagName, status, page)
+
+        then: "Show Status Code 401 Unauthorized"
+
+        assertThat(buildsResponse.getStatusCode()).isEqualTo(401)
+
+        and: "validate all the error body"
+
+        def errorResponseBody = buildsResponse.jsonPath().get()
+
+        def expectedErrorMessage = "Key not authorised"
+        assertThat(errorResponseBody.error).isEqualTo(expectedErrorMessage)
     }
 }

@@ -36,7 +36,7 @@ class ValidatesPostCircles extends Specification {
         CirclesClient circlesClient = new CirclesClient()
         Response circlesResponse = circlesClient.fetchCircles(token.accessToken, circleBody)
 
-        then: "Show Status Code  200 OK"
+        then: "Show Status Code 200 OK"
 
         assertThat(circlesResponse.getStatusCode()).isEqualTo(200)
 
