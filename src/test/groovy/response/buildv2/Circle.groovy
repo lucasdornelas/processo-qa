@@ -1,5 +1,8 @@
 package response.buildv2
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
+
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 class Circle {
 
     private String id
@@ -11,14 +14,35 @@ class Circle {
     private String importedAt
     private int importedKvRecords
 
-    Circle(String id, String name, Author author, String createdAt, String matcherType, Rules rules, String importedAt, int importedKvRecords) {
-        this.id = id
-        this.name = name
-        this.author = author
-        this.createdAt = createdAt
-        this.matcherType = matcherType
-        this.rules = rules
-        this.importedAt = importedAt
-        this.importedKvRecords = importedKvRecords
+    String getId() {
+        return id
+    }
+
+    String getName() {
+        return name
+    }
+
+    Author getAuthor() {
+        return author
+    }
+
+    String getCreatedAt() {
+        return createdAt
+    }
+
+    String getMatcherType() {
+        return matcherType
+    }
+
+    Rules getRules() {
+        return rules
+    }
+
+    String getImportedAt() {
+        return importedAt
+    }
+
+    int getImportedKvRecords() {
+        return importedKvRecords
     }
 }

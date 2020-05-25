@@ -1,5 +1,8 @@
 package response.buildv2
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
+
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 class Builds {
 
     private List<Content> content
@@ -8,11 +11,23 @@ class Builds {
     private int totalPages
     private boolean last
 
-    Builds(List<Content> content, int page, int size, int totalPages, boolean last) {
-        this.content = content
-        this.page = page
-        this.size = size
-        this.totalPages = totalPages
-        this.last = last
+    List<Content> getContent() {
+        return content
+    }
+
+    int getPage() {
+        return page
+    }
+
+    int getSize() {
+        return size
+    }
+
+    int getTotalPages() {
+        return totalPages
+    }
+
+    boolean getLast() {
+        return last
     }
 }

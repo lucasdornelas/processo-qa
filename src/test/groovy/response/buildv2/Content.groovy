@@ -1,5 +1,8 @@
 package response.buildv2
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
+
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 class Content {
 
     private String id
@@ -10,13 +13,31 @@ class Content {
     private String status
     private List<Deployment> deployments
 
-    Content(String id, Author author, String createdAt, List<Feature> features, String tag, String status, List<Deployment> deployments) {
-        this.id = id
-        this.author = author
-        this.createdAt = createdAt
-        this.features = features
-        this.tag = tag
-        this.status = status
-        this.deployments = deployments
+    String getId() {
+        return id
+    }
+
+    Author getAuthor() {
+        return author
+    }
+
+    String getCreatedAt() {
+        return createdAt
+    }
+
+    List<Feature> getFeatures() {
+        return features
+    }
+
+    String getTag() {
+        return tag
+    }
+
+    String getStatus() {
+        return status
+    }
+
+    List<Deployment> getDeployments() {
+        return deployments
     }
 }

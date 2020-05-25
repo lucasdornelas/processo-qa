@@ -1,5 +1,8 @@
 package response.buildv2
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
+
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 class Deployment {
 
     private String id
@@ -9,12 +12,27 @@ class Deployment {
     private String status
     private Circle circle
 
-    Deployment(String id, String createdAt, String deployedAt, String buildId, String status, Circle circle) {
-        this.id = id
-        this.createdAt = createdAt
-        this.deployedAt = deployedAt
-        this.buildId = buildId
-        this.status = status
-        this.circle = circle
+    String getId() {
+        return id
+    }
+
+    String getCreatedAt() {
+        return createdAt
+    }
+
+    String getDeployedAt() {
+        return deployedAt
+    }
+
+    String getBuildId() {
+        return buildId
+    }
+
+    String getStatus() {
+        return status
+    }
+
+    Circle getCircle() {
+        return circle
     }
 }

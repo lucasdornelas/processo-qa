@@ -1,5 +1,8 @@
 package response.buildv2
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
+
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 class Module {
 
     private String id
@@ -9,12 +12,27 @@ class Module {
     private String createdAt
     private List<Component> components
 
-    Module(String id, String name, String gitRepositoryAddress, String helmRepository, String createdAt, List<Component> components) {
-        this.id = id
-        this.name = name
-        this.gitRepositoryAddress = gitRepositoryAddress
-        this.helmRepository = helmRepository
-        this.createdAt = createdAt
-        this.components = components
+    String getId() {
+        return id
+    }
+
+    String getName() {
+        return name
+    }
+
+    String getGitRepositoryAddress() {
+        return gitRepositoryAddress
+    }
+
+    String getHelmRepository() {
+        return helmRepository
+    }
+
+    String getCreatedAt() {
+        return createdAt
+    }
+
+    List<Component> getComponents() {
+        return components
     }
 }

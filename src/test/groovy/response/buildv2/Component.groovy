@@ -1,5 +1,8 @@
 package response.buildv2
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
+
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 class Component {
 
     private String id
@@ -10,13 +13,31 @@ class Component {
     private String createdAt
     private Artifact artifact
 
-    Component(String id, String name, String contextPath, int port, String healthCheck, String createdAt, Artifact artifact) {
-        this.id = id
-        this.name = name
-        this.contextPath = contextPath
-        this.port = port
-        this.healthCheck = healthCheck
-        this.createdAt = createdAt
-        this.artifact = artifact
+    String getId() {
+        return id
+    }
+
+    String getName() {
+        return name
+    }
+
+    String getContextPath() {
+        return contextPath
+    }
+
+    int getPort() {
+        return port
+    }
+
+    String getHealthCheck() {
+        return healthCheck
+    }
+
+    String getCreatedAt() {
+        return createdAt
+    }
+
+    Artifact getArtifact() {
+        return artifact
     }
 }

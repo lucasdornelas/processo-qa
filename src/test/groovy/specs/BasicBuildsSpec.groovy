@@ -1,15 +1,17 @@
 package specs
 
 import client.AuthClient
+import client.BuildsClient
 import client.CirclesClient
 import fixture.circle.CircleFixture
 import io.restassured.response.Response
+import response.buildv2.Builds
 import response.circle.Circle
 import response.token.Token
 import spock.lang.Shared
 import spock.lang.Specification
 
-class BasicCirclesSpec extends Specification {
+class BasicBuildsSpec extends Specification {
 
     @Shared
     private static Token token
@@ -23,33 +25,26 @@ class BasicCirclesSpec extends Specification {
 
     def "Retorna um objeto contendo as infortmacoes de um Circle Criado"() {
 
-        given: "Dado que tenho um token valido e um body valido"
+        given: "Dado que efetuei um request no endpoint POST para um criar um circle"
 
         def circleBody = new CircleFixture().build()
-
-        when: "Chamo o endpoint POST para obter um criar um circle"
-
         CirclesClient circlesClient = new CirclesClient()
         Response circlesResponse = circlesClient.fetchCircles(token.accessToken, circleBody)
 
+        when: "Chamo o endpoint GET para obter os builds que foram criados"
+
+        BuildsClient buildsClient = new BuildsClient()
+
+
+        Response buildsResponse = buildsClient.fetchBuilds(token.accessToken)
+
         then: "Vejo que o Status Code do response e 200"
 
-        circlesResponse.getStatusCode() == 200
+        buildsResponse.getStatusCode() == 200
 
         and:('E valido o body do response')
 
-        Circle circle = circlesResponse.jsonPath().getObject('', Circle)
+        Builds builds = buildsResponse.jsonPath().getObject('', Builds)
 
-        with(circle) {
-            getId() != null
-            getName() != null
-            getAuthor() != null
-            getCreatedAt() != null
-            getMatcherType() != null
-            getRules() != null
-            getDeployment() == null
-            getImportedAt() == null
-            getImportedKvRecords() == null
-        }
     }
 }

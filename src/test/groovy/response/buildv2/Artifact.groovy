@@ -1,5 +1,8 @@
 package response.buildv2
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
+
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 class Artifact {
 
     private String id
@@ -7,10 +10,19 @@ class Artifact {
     private String version
     private String createdAt
 
-    Artifact(String id, String artifact, String version, String createdAt) {
-        this.id = id
-        this.artifact = artifact
-        this.version = version
-        this.createdAt = createdAt
+    String getId() {
+        return id
+    }
+
+    String getArtifact() {
+        return artifact
+    }
+
+    String getVersion() {
+        return version
+    }
+
+    String getCreatedAt() {
+        return createdAt
     }
 }

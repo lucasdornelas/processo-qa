@@ -1,5 +1,8 @@
 package response.buildv2
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
+
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 class Author {
 
     private String id
@@ -8,11 +11,23 @@ class Author {
     private String photoUrl
     private String createdAt
 
-    Author(String id, String name, String email, String photoUrl, String createdAt) {
-        this.id = id
-        this.name = name
-        this.email = email
-        this.photoUrl = photoUrl
-        this.createdAt = createdAt
+    String getId() {
+        return id
+    }
+
+    String getName() {
+        return name
+    }
+
+    String getEmail() {
+        return email
+    }
+
+    String getPhotoUrl() {
+        return photoUrl
+    }
+
+    String getCreatedAt() {
+        return createdAt
     }
 }

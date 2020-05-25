@@ -1,5 +1,8 @@
 package response.buildv2
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
+
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 class Feature {
 
     private String id
@@ -11,14 +14,35 @@ class Feature {
     private String createdAt
     private List<String> branches
 
-    Feature(String id, String name, String branchName, String authorId, String authorName, List<Module> modules, String createdAt, List<String> branches) {
-        this.id = id
-        this.name = name
-        this.branchName = branchName
-        this.authorId = authorId
-        this.authorName = authorName
-        this.modules = modules
-        this.createdAt = createdAt
-        this.branches = branches
+    String getId() {
+        return id
+    }
+
+    String getName() {
+        return name
+    }
+
+    String getBranchName() {
+        return branchName
+    }
+
+    String getAuthorId() {
+        return authorId
+    }
+
+    String getAuthorName() {
+        return authorName
+    }
+
+    List<Module> getModules() {
+        return modules
+    }
+
+    String getCreatedAt() {
+        return createdAt
+    }
+
+    List<String> getBranches() {
+        return branches
     }
 }
