@@ -18,4 +18,9 @@ class RulesFixture {
     }
 
     Rules build() {return new Rules(type, clauses, logicalOperator)}
+
+    RulesFixture withType(String type) {
+        this.type = type
+        return this
+    }
 }

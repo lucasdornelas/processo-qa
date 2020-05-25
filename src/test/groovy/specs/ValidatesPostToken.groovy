@@ -23,7 +23,7 @@ class ValidatesPostToken extends Specification {
 
         assertThat(authResponse.getStatusCode()).isEqualTo(200)
 
-        and:('E valido o body do response')
+        and: "E valido o body do response"
         Token tokenResponseBody = authResponse.jsonPath().getObject('', Token)
 
         assertThat(tokenResponseBody.getAccessToken()).isNotEmpty()

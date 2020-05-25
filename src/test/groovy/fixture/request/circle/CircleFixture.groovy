@@ -20,4 +20,14 @@ class CircleFixture {
     }
 
     Circle build() { return new Circle(name, ruleMatcherType, rules, segmentations, authorId)}
+
+    CircleFixture withAuthorId(String authorId) {
+        this.authorId = authorId
+        return this
+    }
+
+    CircleFixture withRules(Rules rules) {
+        this.rules = rules
+        return this
+    }
 }
