@@ -28,4 +28,35 @@ class Token {
     @JsonProperty("scope")
     private String scope
 
+    String getAccessToken() {
+        return accessToken
+    }
+
+    int getExpiresIn() {
+        return expiresIn
+    }
+
+    int getRefreshExpiresIn() {
+        return refreshExpiresIn
+    }
+
+    String getRefreshToken() {
+        return refreshToken
+    }
+
+    String getTokenType() {
+        return tokenType
+    }
+
+    int getNotBeforePolicy() {
+        return notBeforePolicy
+    }
+
+    String getSessionState() {
+        return sessionState
+    }
+
+    String getScope() {
+        return scope
+    }
 }
