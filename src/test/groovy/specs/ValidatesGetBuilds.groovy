@@ -21,7 +21,7 @@ class ValidatesGetBuilds extends Specification {
 
     def setupSpec() {
         AuthClient authClient = new AuthClient()
-        Response authResponse = authClient.fetchAuth()
+        Response authResponse = authClient.postAuth()
         token = authResponse.jsonPath().getObject('', Token)
 
         buildsClient = new BuildsClient()

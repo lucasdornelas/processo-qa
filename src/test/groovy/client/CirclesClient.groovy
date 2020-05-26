@@ -19,7 +19,7 @@ class CirclesClient extends Client {
         url = getUrl(BASE_URL_CIRCLE_PATH, URL_CIRCLES_PATH)
     }
 
-    Response fetchCircles(String accessToken, Circle circleBody) {
+    Response postCircles(String accessToken, Circle circleBody) {
         return given()
                 .header("Content-Type", HEADER_CONTENT_TYPE_VALUE)
                 .header("Authorization", "Bearer " + accessToken)

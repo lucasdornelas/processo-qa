@@ -26,7 +26,7 @@ class AuthClient extends Client {
         parameterClientId = "darwin-client"
     }
 
-    Response fetchAuth() {
+    Response postAuth() {
         return given()
                 .header("Content-Type", HEADER_CONTENT_TYPE_VALUE)
                 .formParam("username", parameterUser)

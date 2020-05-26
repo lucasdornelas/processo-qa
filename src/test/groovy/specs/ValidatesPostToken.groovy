@@ -17,7 +17,7 @@ class ValidatesPostToken extends Specification {
 
         when: "I make request to POST endpoint to get a valid token"
 
-        Response authResponse = authClient.fetchAuth()
+        Response authResponse = authClient.postAuth()
 
         then: "Show Status Code 200 OK"
 

@@ -20,7 +20,7 @@ class ValidatesPostCircles extends Specification {
 
     def setupSpec() {
         AuthClient authClient = new AuthClient()
-        Response authResponse = authClient.fetchAuth()
+        Response authResponse = authClient.postAuth()
         token = authResponse.jsonPath().getObject('', Token)
 
     }
@@ -34,7 +34,7 @@ class ValidatesPostCircles extends Specification {
         when: "I make a request for POST endpoint to create a circle"
 
         CirclesClient circlesClient = new CirclesClient()
-        Response circlesResponse = circlesClient.fetchCircles(token.accessToken, circleBody)
+        Response circlesResponse = circlesClient.postCircles(token.accessToken, circleBody)
 
         then: "Show Status Code 200 OK"
 
@@ -93,7 +93,7 @@ class ValidatesPostCircles extends Specification {
         when: "I make a request for POST endpoint to create a circle"
 
         CirclesClient circlesClient = new CirclesClient()
-        Response circlesResponse = circlesClient.fetchCircles(token.accessToken, circleBody)
+        Response circlesResponse = circlesClient.postCircles(token.accessToken, circleBody)
 
         then: "Show Status Code 400 Bad Request"
 
@@ -120,7 +120,7 @@ class ValidatesPostCircles extends Specification {
         when: "I make a request for POST endpoint to create a circle"
 
         CirclesClient circlesClient = new CirclesClient()
-        Response circlesResponse = circlesClient.fetchCircles(token.accessToken, circleBody)
+        Response circlesResponse = circlesClient.postCircles(token.accessToken, circleBody)
 
         then: "Show Status Code 404 Not Found"
 
@@ -147,7 +147,7 @@ class ValidatesPostCircles extends Specification {
         CirclesClient circlesClient = new CirclesClient()
 
         String invalidToken = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiA"
-        Response circlesResponse = circlesClient.fetchCircles(invalidToken, circleBody)
+        Response circlesResponse = circlesClient.postCircles(invalidToken, circleBody)
 
         then: "Show Status Code 401 Unauthorized"
 
