@@ -72,6 +72,9 @@ As an assert library was chosen AssertJ for having a better legibility in way it
 
 ### CircleCI‎
 All tests are configured to run in CircleCi, the choise for CircleCi in this case is because  is fast and simple to configure
+You need follow projects, to acess CircleCI. Team members can join CircleCI by signing up with their corresponding VCS credentials on 
+* https://circleci.com/signup/.
+
 * [CircleCI‎](https://circleci.com/gh/lucasdornelas/processo-qa) - The CI used
 ![Screenshot](screen_shot_example/Screen-Shot-Run-CircleCI.png)
 
