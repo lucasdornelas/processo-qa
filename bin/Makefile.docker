@@ -1,5 +1,0 @@
-docker-integration-test:
-	docker run --rm -v ${PWD}:/usr/src \
-		-w /usr/src/ \
-		openjdk:8 ./gradle test $(ARG)
-
