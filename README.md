@@ -48,6 +48,7 @@ To run the tests through Gradlew or Docker, you must use the Makefile, a file th
 ```
 make integrationTest
 ```
+```
 ![Screenshot](screen_shot_example/Screen-Shot-Run-Tests-Gradle.png)
 
 ### And coding style tests
