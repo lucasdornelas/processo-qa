@@ -12,9 +12,6 @@ Install Gradle
 ```
 * [Gradle](https://gradle.org/install/)
 ```
-Install Docker
-```
-* [Docker](https://docs.docker.com/get-started/)
 ```
 Install Git and configure Github
 ```
@@ -50,9 +47,6 @@ as shown as in the image below:
 To run the tests through Gradlew or Docker, you must use the Makefile, a file that is located at the root of the project. Makefile configures the way to run the tests through Gradle as shown as in the image below, for this you need to write in your terminal, as shown in the figure below:
 ```
 make integrationTest
-```
-```
-make docker-integration-test
 ```
 ![Screenshot](screen_shot_example/Screen-Shot-Run-Tests-Gradle.png)
 
